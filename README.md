@@ -14,7 +14,7 @@ $ export RTE_TARGET=x86_64-native-linuxapp-gcc
 *  Download ANS following the [ANS wiki](https://github.com/opendp/dpdk-ans/wiki/Compile-APP-with-ans), build ans and startup ans
 ```
 $ git clone https://github.com/ansyun/dpdk-ans.git
-$ export RTE_ANS=/home/mytest/dpdk-ans
+$ export RTE_ANS=/home/wp/Downloads/dpdk-ans
 $ ./install_deps.sh
 $ cd ans
 $ make
