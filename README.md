@@ -8,7 +8,7 @@ Fork from official redis-3.0.5, and run on the dpdk user space TCP/IP stack(ANS"
 ```
 $ make config T=x86_64-native-linuxapp-gcc
 $ make install T=x86_64-native-linuxapp-gcc
-$ export RTE_SDK=/home/mytest/dpdk
+$ export RTE_SDK=/home/wp/Downloads/dpdk-stable-18.11.11
 $ export RTE_TARGET=x86_64-native-linuxapp-gcc
 ```
 *  Download ANS following the [ANS wiki](https://github.com/opendp/dpdk-ans/wiki/Compile-APP-with-ans), build ans and startup ans
